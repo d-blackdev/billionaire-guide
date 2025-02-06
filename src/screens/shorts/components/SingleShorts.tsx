@@ -132,7 +132,7 @@ const SingleShorts: FC<SingleShortsProps> = ({
               globalStyles.justifyBetween,
               globalStyles.alignItemsFlexEnd,
               globalStyles.absolute,
-              {bottom: '20%'},
+              {bottom: Platform.OS === 'android' ? '20%' : '15%'},
             ]}>
             {/* Left column */}
             <LeftFooterSection title={title} caption={caption} />
