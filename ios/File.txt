@@ -1,0 +1,1 @@
+/Users/kehindelasisi/Documents/github/billionaireGuide/node_modules/react-native-vector-icons/Fonts
